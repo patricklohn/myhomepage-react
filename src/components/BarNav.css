@@ -1,0 +1,22 @@
+.container-nav-bar nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-nav-bar nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 2.5rem;
+    margin: 1rem 1rem;
+}
+
+.container-nav-bar a{
+    color: #800080;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.container-nav-bar a:hover{
+    color: #F5F5DC ;
+}
