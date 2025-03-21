@@ -1,3 +1,26 @@
+.container-skills{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    text-align: center;
+}
+
 .skill img{
     width: 100px;
+    height: 100px;
+}
+
+.skill-html span{
+    display: none;
+    width: 100px;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    background-color: #800080;
+    border-radius: 10px;
+}
+
+.skill-html:hover span{
+    display: block;
+    position: fixed;
 }
