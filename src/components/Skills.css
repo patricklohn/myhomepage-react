@@ -1,9 +1,14 @@
+.skill-main h1{
+    margin-bottom: 1rem;
+}
+
 .container-skills{
     padding: 2rem;
     display: flex;
     justify-content: center;
     gap: 10rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .skill img{
