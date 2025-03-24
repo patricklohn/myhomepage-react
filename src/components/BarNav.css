@@ -20,3 +20,14 @@
 .container-nav-bar a:hover{
     color: #F5F5DC ;
 }
+
+@media (max-width: 700px){
+    .container-nav-bar nav a img{
+        width: 370px;
+    }
+    .container-nav-bar nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

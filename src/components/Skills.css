@@ -13,6 +13,7 @@
     gap: 10rem;
     text-align: center;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .skill img{
@@ -31,6 +32,14 @@
 
 .skill-html:hover span{
     display: block;
-    position: fixed;
+    position: absolute;
 }
 
+@media (max-width:700px){
+    .skill-html span{
+        display: block;
+    }
+    .container-skills{
+        gap: 3.5rem;
+    }
+}
