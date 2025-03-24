@@ -14,6 +14,13 @@ const BarNav = () => {
                 </ul>
             </div>
         </nav>
+        <div className='container-nav-menu'>
+        <nav>
+            <ul>
+              <li>Teste</li>
+            </ul>
+          </nav>
+        </div>
     </div>
   )
 }

@@ -41,7 +41,7 @@ const Skills = () => {
                   </div>
             </div>
         </div>
-        <span>Linguagens de programação e banco de dados</span>
+        <span>Linguagens de programação</span>
         <div className='container-skills'>
             <div className='skill'>
                 <div className='skill-html'>
