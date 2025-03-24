@@ -5,6 +5,12 @@
     font-family: "Lato", sans-serif, Helvetica;
 }
 
+/* html, body{
+    overflow:hidden;
+    touch-action: none;
+    overscroll-behavior: contain;
+} Utilizar posteriormente a teste*/
+
 body{
     background-color: #000;
     color: #F5F5DC;
