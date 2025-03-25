@@ -17,7 +17,18 @@ const BarNav = () => {
         <div className='container-nav-menu'>
         <nav>
             <ul>
-              <li>Teste</li>
+              <li className="active">
+                <a href="#">
+                  <i class="bi bi-book"></i>
+                  <span>Skills</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-tools"></i>
+                  <span>Tools</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

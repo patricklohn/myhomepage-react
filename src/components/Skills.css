@@ -2,6 +2,11 @@
     padding: 2rem;
 }
 
+.skill-main span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .skill-main h1{
     margin-bottom: 1rem;
 }
@@ -24,10 +29,11 @@
 .skill-html span{
     display: none;
     width: 100px;
-    padding: 0.3rem;
+    padding: 0.4rem;
     margin-top: 1rem;
     background-color: #800080;
     border-radius: 10px;
+    font-size: 0.9rem;
 }
 
 .skill-html:hover span{
@@ -38,6 +44,9 @@
 @media (max-width:700px){
     .skill-html span{
         display: block;
+    }
+    .skill-main{
+        text-align: center;
     }
     .container-skills{
         gap: 3.5rem;
